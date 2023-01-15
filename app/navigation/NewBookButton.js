@@ -1,14 +1,14 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, Pressable, View } from "react-native";
 import React from "react";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 const NewBookButton = ({ onPress }) => {
   return (
-    <TouchableOpacity onPress={onPress}>
+    <Pressable onPress={onPress}>
       <View style={styles.container}>
         <MaterialCommunityIcons name="plus-circle" color={"white"} size={30} />
       </View>
-    </TouchableOpacity>
+    </Pressable>
   );
 };
 
