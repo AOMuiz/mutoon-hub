@@ -14,7 +14,7 @@ export default function AppNavigator() {
   return (
     <Tab.Navigator>
       <Tab.Screen
-        name="Home"
+        name="Feed"
         component={HomeNavigator}
         options={{
           headerShown: false,

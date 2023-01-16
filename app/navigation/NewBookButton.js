@@ -1,6 +1,7 @@
 import { StyleSheet, Text, Pressable, View } from "react-native";
 import React from "react";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import colors from "../config/colors";
 
 const NewBookButton = ({ onPress }) => {
   return (
@@ -17,7 +18,7 @@ export default NewBookButton;
 const styles = StyleSheet.create({
   container: {
     alignItems: "center",
-    backgroundColor: "blue",
+    backgroundColor: colors.primary,
     borderColor: "white",
     justifyContent: "center",
     borderRadius: 35,

@@ -1,11 +1,4 @@
-import {
-  StyleSheet,
-  Text,
-  View,
-  FlatList,
-  ScrollView,
-  Pressable,
-} from "react-native";
+import { StyleSheet, Text, View, FlatList, Pressable } from "react-native";
 import { MUTOONS } from "../../books";
 import AppText from "../components/AppText";
 import Card from "../components/Card";
@@ -27,6 +20,7 @@ const HomeScreen = ({ navigation }) => {
             title={"Usool As-Sunnah"}
             author={"Imam Ahmad"}
             image={require("../../assets/usuulsunnah.png")}
+            onPress={() => navigation.navigate("BookDetails")}
           />
         </View>
         <FlatList
@@ -45,7 +39,7 @@ const HomeScreen = ({ navigation }) => {
               title={item.title}
               author={item.author}
               image={item.image}
-              onPress={navigation.navigate("BookDetails")}
+              onPress={() => navigation.navigate("BookDetails", item)}
             />
           )}
           keyExtractor={(item) => item.id}

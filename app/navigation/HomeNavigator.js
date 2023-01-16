@@ -5,12 +5,12 @@ import HomeScreen from "../screens/HomeScreen";
 const Stack = createStackNavigator();
 
 const HomeNavigator = () => (
-  <Stack.Navigator
-    screenOptions={{
-      headerShown: false,
-    }}
-  >
-    <Stack.Screen name="Home" component={HomeScreen} />
+  <Stack.Navigator>
+    <Stack.Screen
+      name="Home"
+      options={{ headerShown: false }}
+      component={HomeScreen}
+    />
     <Stack.Screen name="BookDetails" component={BookDetailsScreen} />
   </Stack.Navigator>
 );
