@@ -6,6 +6,7 @@ export const MUTOONS = [
     image: require("./assets/kitabtawhid.png"),
     summary:
       'There is no God worthy of worship except Allah." This fundamental Islamic statement of faith sums up the concept of tawheed, or perfect monotheism. That there is one and only one God is the basis of all monotheistic religion. Yet, despite the simplicity of this belief, many people who claim to believe in one divine Creator have fallen into errors which negate their testimony of faith. Shaykh Muhammad ibn ‘Abd al-Wahhâb, the great Muslim scholar and reformer of the 12th century H (18th century CE), was inspired to write Kitâb at-Tawheed because he saw Muslims who had corrupted their beliefs and actions by that which contradicted the pure monotheistic position of Islam. He witnessed the religious veneration of historical sites and graves, supplications made for the intercession of deceased saints, belief in omens, distortions of the meanings of Allah’s names and attributes, and the use of expressions which contradict the belief in Allah’s Oneness. In an effort to purify Islam from this falsehood, the esteemed Shaykh collected proofs from the Noble Qur’an and the teaching of Allah’s Messenger (peace and blessing be upon him) to explain all aspects of true monotheism.',
+    book: "https://abdurrahmanorg.files.wordpress.com/2019/06/kt-english.pdf",
   },
   {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
@@ -22,5 +23,7 @@ export const MUTOONS = [
     image: require("./assets/usuulsunnah.png"),
     summary:
       "The creed (‘aqeedah) of Ahlus-Sunnah wal-Jamā’ah was penned down by Imam Ahmad ibn Hanbal (may Allaah’s mercy be upon him) in his great work Usoolus-Sunnah translated as The Foundations of the Sunnah. The Imaam of Ahlus-Sunnah by consensus – the one who remained firm and steadfast in the times of tribulation in which the people of misguidance compelled the people with their saying that the Qur’an was created along with the denial and distortion of the Attributes of Allaah. So Allaah, the Most High, made the truth clear by way of Imām Ahmad (rahimahullāh), the Imaam of Ahlus-Sunnah – born in the year 161H and died in 241H. The term Sunnah in the title refers to the belief and the ‘aqeedah of Ahlus-Sunnah wal-Jamaa’ah.",
+    book: "https://abukhadeejah.com/wp-content/uploads/2020/07/Usul-As-Sunnah-Text-2.0.pdf",
+    // book: "https://abdurrahmanorg.files.wordpress.com/2014/08/foundation-of-sunnah-imam-ahmad.pdf",
   },
 ];
